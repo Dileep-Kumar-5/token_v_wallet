@@ -1,0 +1,50 @@
+name: token_v_wallet
+description: Secure closed-loop digital wallet Flutter mobile application for internal credit management and peer-to-peer transfers.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.9.1
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.3.1
+  flutter_svg: ^2.0.9
+  sizer: ^2.0.15
+  shared_preferences: ^2.2.2
+  dio: ^5.7.0
+  connectivity_plus: ^5.0.2
+  fl_chart: ^0.65.0
+  fluttertoast: ^8.2.4
+  google_fonts: ^6.1.0
+  local_auth: ^2.3.0
+  flutter_slidable: ^4.0.3
+  freerasp: ^7.3.0
+  crypto: ^3.0.7
+  pointycastle: ^4.0.0
+  flutter_stripe: ^11.5.0
+  flutter_stripe_web: ^6.5.1
+  qr_flutter: ^4.1.0
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  path_provider: ^2.1.2
+  share_plus: ^7.2.2
+  otp: ^3.2.0
+  pretty_qr_code: ^3.5.0
+  file_picker: ^8.1.7
+
+  intl: ^0.19.0
+  web: any
+  image_picker: any
+  http: any
+  universal_html: ^2.2.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
